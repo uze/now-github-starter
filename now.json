@@ -1,4 +1,7 @@
 {
   "name": "nibble",
-  "version": 2
+  "version": 2,
+  "builds": [
+        { "src": "*.js", "use": "@now/node" }
+    ]
 }
